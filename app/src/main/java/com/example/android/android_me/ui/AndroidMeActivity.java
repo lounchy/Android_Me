@@ -45,7 +45,7 @@ public class AndroidMeActivity extends AppCompatActivity {
 
         // TODO (5) Create a new BodyPartFragment instance and display it using the FragmentManager
         if (savedInstanceState == null){
-            
+
             Bundle b = getIntent().getExtras();
             int headIndex = b.getInt("headIndex");
             int bodyIndex = b.getInt("bodyIndex");
